@@ -36,7 +36,7 @@ fun PlayStoreScreen(navController: NavHostController) {
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .background(Color.Black)
-    ) {
+    ) {//mandar llamar a las funciones
         PreviewTopBarWithSubtitle()//para ti y patrocinado
         PreviewAppSuggestions()//3 sugerencias
         PreviewRecommendedAppsSection()//recomendados
