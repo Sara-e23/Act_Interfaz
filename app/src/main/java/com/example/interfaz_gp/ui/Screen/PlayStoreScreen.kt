@@ -29,7 +29,6 @@ import com.example.interfaz_gp.R
 
 @Composable
 fun PlayStoreScreen(navController: NavHostController) {
-
     Column(
         modifier = Modifier
             .padding(16.dp)
