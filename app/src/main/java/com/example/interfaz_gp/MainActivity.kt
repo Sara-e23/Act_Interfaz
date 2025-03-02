@@ -30,7 +30,7 @@ fun ComposableMultiScreenApp() {
 
 @Composable
 fun SetupNavGraph(navController: NavHostController) {
-    NavHost(navController = navController, startDestination = "Main_Menu") {
+    NavHost(navController = navController, startDestination = "Play_Store") {
 
         composable("Play_Store") { PlayStoreScreen(navController) }
     }
